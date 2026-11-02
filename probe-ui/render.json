@@ -1,0 +1,105 @@
+{
+  "version": 2,
+  "scene": {
+    "repo": "tejaswigowda/test1",
+    "file": "a+b-cubed.json",
+    "branch": "main",
+    "commit": "89f9272c7b",
+    "hash": "sha256:abababababababababababababababababababababababababababababababab"
+  },
+  "render": {
+    "mode": "offline",
+    "determinism": {
+      "frames": true,
+      "bytes": true,
+      "reasons": {
+        "frames": [],
+        "bytes": []
+      },
+      "verification": {
+        "method": "shuffled-order",
+        "every": 1,
+        "seed": 1,
+        "frames_checked": 48,
+        "of": 48,
+        "complete": true,
+        "passed": true,
+        "mismatched_frames": [],
+        "mismatched_count": 0
+      }
+    },
+    "encoder": {
+      "kind": "software",
+      "name": null,
+      "version": null,
+      "settings_hash": null,
+      "threads": null,
+      "config": null
+    },
+    "renderer": "WebGLRenderer",
+    "device": "webgl2",
+    "fps": 24,
+    "frames": 48,
+    "frame_range": [
+      0,
+      47
+    ],
+    "duration_s": 2,
+    "width": 640,
+    "height": 360,
+    "seed": null,
+    "exporter": "strata-export/1.2.0",
+    "rendered_at": "2026-11-02T16:35:37.827Z",
+    "time_source_audit": {
+      "document": "guides/TIME_SOURCES.md",
+      "passed": true,
+      "confirmed": [
+        "no-clock-in-animated-quantities",
+        "no-delta-integration",
+        "no-previous-frame-reads",
+        "shell-wall-clock-loops"
+      ],
+      "live_when_present": [
+        "playback-running"
+      ]
+    }
+  },
+  "outputs": {
+    "master": "master.m3u8",
+    "renditions": [
+      {
+        "name": "360p24",
+        "width": 640,
+        "height": 360,
+        "bitrate_kbps": 800,
+        "playlist": "360p24/index.m3u8",
+        "segments": 1,
+        "max_segment_bytes": 5000
+      }
+    ],
+    "poster": "poster.jpg",
+    "captions": null,
+    "caption_tracks": [],
+    "frame_hashes": {
+      "path": "frame-hashes.txt",
+      "count": 48,
+      "algorithm": "sha256",
+      "over": "raw RGB, 8 bits per channel, row by row, of the composited frame before encoding",
+      "root": "sha256:f2e9bcf217bf3068791df1f5fcfaa64c0cce828d5cc1e676030ccd7b2ab89bff"
+    },
+    "audio": null
+  },
+  "checks": {
+    "segments_under_20mb": true,
+    "files_under_100mb": true,
+    "frame_count_matches_duration": true
+  },
+  "publication": {
+    "storage": "renders-repo",
+    "repo": "tejaswigowda/renders",
+    "path": "probe-ui",
+    "tag": "probe-ui/v1",
+    "url": "https://cdn.jsdelivr.net/gh/tejaswigowda/renders@probe-ui/v1/probe-ui/",
+    "size_bytes": 8619
+  }
+}
