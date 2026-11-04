@@ -1,0 +1,190 @@
+{
+  "version": 2,
+  "scene": {
+    "repo": "tejaswigowda/renders",
+    "file": "bus-stop_1m2s_1080p_60fps_2026-11-04.mp4",
+    "branch": "main",
+    "commit": null,
+    "hash": "sha256:6e2840104db23e476425a94e020a85f9b40715699dedc1cb6dd81531b51d42a8"
+  },
+  "render": {
+    "mode": "offline",
+    "determinism": {
+      "frames": false,
+      "bytes": false,
+      "reasons": {
+        "frames": [
+          "the time-source audit did not pass",
+          "no per-frame hashes were made, so the claim cannot be checked",
+          "not verified: the shuffled-order test was not run (set Verify to all frames)"
+        ],
+        "bytes": [
+          "a hardware encoder was chosen: its bytes are not promised to repeat (a choice; the frames are unaffected)",
+          "the frames are not established as deterministic"
+        ]
+      },
+      "verification": null
+    },
+    "encoder": {
+      "kind": "hardware",
+      "name": "uploaded avc1 video (bus-stop_1m2s_1080p_60fps_2026-11-04.mp4)",
+      "version": null,
+      "settings_hash": null,
+      "threads": null,
+      "config": null,
+      "stage": "master"
+    },
+    "renderer": "upload",
+    "device": "webcodecs",
+    "fps": 60,
+    "frames": 3720,
+    "frame_range": [
+      0,
+      3719
+    ],
+    "duration_s": 62,
+    "width": 1920,
+    "height": 1080,
+    "seed": null,
+    "exporter": "strata-export/1.2.0",
+    "rendered_at": "2026-11-04T23:10:32.970Z",
+    "time_source_audit": {
+      "document": "guides/TIME_SOURCES.md",
+      "passed": false,
+      "confirmed": [],
+      "live_when_present": []
+    }
+  },
+  "outputs": {
+    "master": "master.m3u8",
+    "renditions": [
+      {
+        "name": "1080p60",
+        "width": 1920,
+        "height": 1080,
+        "bitrate_kbps": 3500,
+        "playlist": "1080p60/index.m3u8",
+        "segments": 11,
+        "max_segment_bytes": 3491147,
+        "encoder": {
+          "kind": "hardware",
+          "name": "WebCodecs VideoEncoder (H.264)",
+          "version": "Google Chrome 159",
+          "settings_hash": "sha256:a2f8ae1ce484e0a9022827a6c0ce106e41db1639b4247a6a0241efb1e501510e",
+          "threads": null,
+          "config": {
+            "codec": "avc1.64002a",
+            "width": 1920,
+            "height": 1080,
+            "bitrate": 3500000,
+            "framerate": 60,
+            "avc": {
+              "format": "avc"
+            },
+            "latencyMode": "quality",
+            "hardwareAcceleration": "no-preference",
+            "keyEvery": 120
+          },
+          "stage": "ladder",
+          "input": "master"
+        }
+      },
+      {
+        "name": "720p60",
+        "width": 1280,
+        "height": 720,
+        "bitrate_kbps": 1800,
+        "playlist": "720p60/index.m3u8",
+        "segments": 11,
+        "max_segment_bytes": 1707994,
+        "encoder": {
+          "kind": "hardware",
+          "name": "WebCodecs VideoEncoder (H.264)",
+          "version": "Google Chrome 159",
+          "settings_hash": "sha256:be6f3801e9c1afe2b224592340abd5fdd648219b614b7caa704d8c3ee4c71241",
+          "threads": null,
+          "config": {
+            "codec": "avc1.640028",
+            "width": 1280,
+            "height": 720,
+            "bitrate": 1800000,
+            "framerate": 60,
+            "avc": {
+              "format": "avc"
+            },
+            "latencyMode": "quality",
+            "hardwareAcceleration": "no-preference",
+            "keyEvery": 120
+          },
+          "stage": "ladder",
+          "input": "master"
+        }
+      },
+      {
+        "name": "480p60",
+        "width": 854,
+        "height": 480,
+        "bitrate_kbps": 900,
+        "playlist": "480p60/index.m3u8",
+        "segments": 11,
+        "max_segment_bytes": 831434,
+        "encoder": {
+          "kind": "hardware",
+          "name": "WebCodecs VideoEncoder (H.264)",
+          "version": "Google Chrome 159",
+          "settings_hash": "sha256:fe0f3113856512c174441f41d8b5cd941a24e20f6168f7665dc8ece463b5544a",
+          "threads": null,
+          "config": {
+            "codec": "avc1.64001f",
+            "width": 854,
+            "height": 480,
+            "bitrate": 900000,
+            "framerate": 60,
+            "avc": {
+              "format": "avc"
+            },
+            "latencyMode": "quality",
+            "hardwareAcceleration": "no-preference",
+            "keyEvery": 120
+          },
+          "stage": "ladder",
+          "input": "master"
+        }
+      }
+    ],
+    "poster": "poster.jpg",
+    "captions": null,
+    "caption_tracks": [],
+    "manifest": {
+      "path": "files.sha256",
+      "algorithm": "sha256"
+    },
+    "audio": null,
+    "audio_present": false,
+    "audio_absence": "The uploaded video has no audio track. The master declares no audio group and no audio codec."
+  },
+  "checks": {
+    "segments_under_20mb": true,
+    "files_under_100mb": true,
+    "frame_count_matches_duration": true,
+    "encoder_recorded_per_rendition": true,
+    "master_matches_audio": true
+  },
+  "publication": {
+    "canonical": "https://strataeditor.dev/video/bus-stop-1m2s-1080p-60fps-2026-11-04/v1/",
+    "source": {
+      "repo": "tejaswigowda/renders",
+      "tag": "bus-stop-1m2s-1080p-60fps-2026-11-04/v1",
+      "path": "bus-stop-1m2s-1080p-60fps-2026-11-04"
+    },
+    "mirrors": [
+      "https://cdn.jsdelivr.net/gh/tejaswigowda/renders@bus-stop-1m2s-1080p-60fps-2026-11-04/v1/bus-stop-1m2s-1080p-60fps-2026-11-04/"
+    ],
+    "target": "generic",
+    "constraints": {
+      "max_file_bytes": 20971520,
+      "target_segment_s": 6
+    },
+    "size_bytes": 47150479
+  }
+}
