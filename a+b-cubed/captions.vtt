@@ -1,0 +1,58 @@
+WEBVTT
+
+NOTE
+scene           tejaswigowda/test1@e9235f0 a+b-cubed.json
+cues            sha256:d472366a010472578cc7fc7aa0c8dae5895890b13ecedec0ae2d63a076d05423
+structure       sha256:54c94fad3140596c6b95892763a5da9a74d708834d2c6332c1446d7c8db5c0e1
+source          cues
+language        en
+ids             authored
+exporter        strata-export/1.2.0
+
+cue-y0quet1
+00:00:01.600 --> 00:00:06.000
+What is the volume of a cube
+whose side is a plus b?
+
+cue-cemp3w2
+00:00:07.200 --> 00:00:11.500
+Cut every side into two parts:
+a, and b.
+
+cue-dqo5863
+00:00:12.900 --> 00:00:17.680
+Cut along those parts,
+and the cube falls into eight blocks.
+
+cue-r4x1pg4
+00:00:19.480 --> 00:00:22.630
+The blocks come in four kinds.
+
+cue-3y2ijd5
+00:00:23.830 --> 00:00:29.780
+Put like with like. First, one cube
+with side a: a cubed.
+
+cue-ijt83s6
+00:00:31.080 --> 00:00:36.080
+Next, three slabs, each a by a by b:
+three a squared b.
+
+cue-zpdk117
+00:00:37.380 --> 00:00:42.480
+Then three bars, each a by b by b:
+three a b squared.
+
+cue-rgxjxb8
+00:00:43.780 --> 00:00:47.850
+And one small cube with side b:
+b cubed.
+
+cue-h9il8j9
+00:00:49.450 --> 00:00:56.800
+So a plus b, cubed, equals a cubed, plus three a squared b,
+plus three a b squared, plus b cubed.
+
+cue-ubpkbua
+00:00:59.200 --> 00:01:01.800
+Made with Strata.
