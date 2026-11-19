@@ -1,0 +1,214 @@
+{
+  "version": 2,
+  "scene": {
+    "repo": "tejaswigowda/test1",
+    "file": "flux.json",
+    "branch": "main",
+    "commit": "73fd7a253f6d8dc48c592d587fb5d1e261c86706",
+    "hash": "sha256:08c7e3bb0f77f36fdd16b209aad466c0246aba81102a0ac88b671c5ea16e2412"
+  },
+  "render": {
+    "mode": "offline",
+    "determinism": {
+      "frames": false,
+      "bytes": false,
+      "reasons": {
+        "frames": [
+          "not verified: the shuffled-order test was not run (set Verify to all frames)"
+        ],
+        "bytes": [
+          "a hardware encoder was chosen: its bytes are not promised to repeat (a choice; the frames are unaffected)",
+          "the frames are not established as deterministic"
+        ]
+      },
+      "verification": null
+    },
+    "encoder": {
+      "kind": "hardware",
+      "name": "WebCodecs VideoEncoder (H.264)",
+      "version": "Chromium 150",
+      "settings_hash": "sha256:95b17ad03ad20b6579e31b6c628b540f267c3d62411e7a784dfd98ea7f8142a2",
+      "threads": null,
+      "config": {
+        "codec": "avc1.64002a",
+        "width": 1920,
+        "height": 1080,
+        "bitrate": 18662400,
+        "framerate": 60,
+        "avc": {
+          "format": "avc"
+        },
+        "latencyMode": "quality",
+        "hardwareAcceleration": "no-preference",
+        "keyEvery": 120
+      },
+      "stage": "master"
+    },
+    "renderer": "WebGLRenderer",
+    "device": "webgl2",
+    "fps": 60,
+    "frames": 1800,
+    "frame_range": [
+      0,
+      1799
+    ],
+    "duration_s": 30,
+    "width": 1920,
+    "height": 1080,
+    "seed": null,
+    "exporter": "strata-export/1.2.0",
+    "rendered_at": "2026-11-19T21:42:10.261Z",
+    "time_source_audit": {
+      "document": "guides/TIME_SOURCES.md",
+      "passed": true,
+      "confirmed": [
+        "no-clock-in-animated-quantities",
+        "no-delta-integration",
+        "no-previous-frame-reads",
+        "shell-wall-clock-loops"
+      ],
+      "live_when_present": [
+        "playback-running"
+      ]
+    }
+  },
+  "outputs": {
+    "master": "master.m3u8",
+    "renditions": [
+      {
+        "name": "1080p60",
+        "width": 1920,
+        "height": 1080,
+        "bitrate_kbps": 3500,
+        "playlist": "1080p60/index.m3u8",
+        "segments": 5,
+        "max_segment_bytes": 2815591,
+        "encoder": {
+          "kind": "hardware",
+          "name": "WebCodecs VideoEncoder (H.264)",
+          "version": "Chromium 150",
+          "settings_hash": "sha256:a2f8ae1ce484e0a9022827a6c0ce106e41db1639b4247a6a0241efb1e501510e",
+          "threads": null,
+          "config": {
+            "codec": "avc1.64002a",
+            "width": 1920,
+            "height": 1080,
+            "bitrate": 3500000,
+            "framerate": 60,
+            "avc": {
+              "format": "avc"
+            },
+            "latencyMode": "quality",
+            "hardwareAcceleration": "no-preference",
+            "keyEvery": 120
+          },
+          "stage": "ladder",
+          "input": "master"
+        }
+      },
+      {
+        "name": "720p60",
+        "width": 1280,
+        "height": 720,
+        "bitrate_kbps": 1800,
+        "playlist": "720p60/index.m3u8",
+        "segments": 5,
+        "max_segment_bytes": 1433724,
+        "encoder": {
+          "kind": "hardware",
+          "name": "WebCodecs VideoEncoder (H.264)",
+          "version": "Chromium 150",
+          "settings_hash": "sha256:be6f3801e9c1afe2b224592340abd5fdd648219b614b7caa704d8c3ee4c71241",
+          "threads": null,
+          "config": {
+            "codec": "avc1.640028",
+            "width": 1280,
+            "height": 720,
+            "bitrate": 1800000,
+            "framerate": 60,
+            "avc": {
+              "format": "avc"
+            },
+            "latencyMode": "quality",
+            "hardwareAcceleration": "no-preference",
+            "keyEvery": 120
+          },
+          "stage": "ladder",
+          "input": "master"
+        }
+      },
+      {
+        "name": "480p60",
+        "width": 854,
+        "height": 480,
+        "bitrate_kbps": 900,
+        "playlist": "480p60/index.m3u8",
+        "segments": 5,
+        "max_segment_bytes": 737231,
+        "encoder": {
+          "kind": "hardware",
+          "name": "WebCodecs VideoEncoder (H.264)",
+          "version": "Chromium 150",
+          "settings_hash": "sha256:fe0f3113856512c174441f41d8b5cd941a24e20f6168f7665dc8ece463b5544a",
+          "threads": null,
+          "config": {
+            "codec": "avc1.64001f",
+            "width": 854,
+            "height": 480,
+            "bitrate": 900000,
+            "framerate": 60,
+            "avc": {
+              "format": "avc"
+            },
+            "latencyMode": "quality",
+            "hardwareAcceleration": "no-preference",
+            "keyEvery": 120
+          },
+          "stage": "ladder",
+          "input": "master"
+        }
+      }
+    ],
+    "poster": "poster.jpg",
+    "captions": null,
+    "caption_tracks": [],
+    "manifest": {
+      "path": "files.sha256",
+      "algorithm": "sha256"
+    },
+    "frame_hashes": {
+      "path": "frame-hashes.txt",
+      "count": 1800,
+      "algorithm": "sha256",
+      "over": "raw RGB, 8 bits per channel, row by row, of the composited frame before encoding",
+      "root": "sha256:c30a2042629d41dc817a888e1e6be30d04df869adb6faeeafd139a58d7183e8e"
+    },
+    "audio": null,
+    "audio_present": false,
+    "audio_absence": "The scene has no narration: no renderAudio, nothing dubbed, no WAV chosen. The master declares no audio group and no audio codec."
+  },
+  "checks": {
+    "segments_under_20mb": true,
+    "files_under_100mb": true,
+    "frame_count_matches_duration": true,
+    "encoder_recorded_per_rendition": true,
+    "master_matches_audio": true
+  },
+  "publication": {
+    "canonical": "https://strataeditor.dev/video/flux/v1/",
+    "source": {
+      "repo": "tejaswigowda/renders",
+      "tag": "flux/v1",
+      "path": "flux"
+    },
+    "mirrors": [
+      "https://cdn.jsdelivr.net/gh/tejaswigowda/renders@flux/v1/flux/"
+    ],
+    "target": "generic",
+    "constraints": {
+      "max_file_bytes": 20971520,
+      "target_segment_s": 6
+    },
+    "size_bytes": 24224743
+  }
+}
