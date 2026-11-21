@@ -1,0 +1,201 @@
+{
+  "scene": {
+    "repo": "tejaswigowda/test1",
+    "file": "flux.json",
+    "branch": "main",
+    "commit": "4612f3d48b78f314eb810d5af468ea3cfa143708"
+  },
+  "render": {
+    "mode": "offline",
+    "fps": 30,
+    "frames": 3645,
+    "duration_s": 121.5,
+    "width": 1920,
+    "height": 1080
+  },
+  "outputs": {
+    "master": "master.m3u8",
+    "renditions": [
+      {
+        "name": "1080p30",
+        "width": 1920,
+        "height": 1080,
+        "bitrate_kbps": 7078,
+        "playlist": "1080p30/index.m3u8",
+        "segments": 31,
+        "max_segment_bytes": 5144376
+      }
+    ],
+    "poster": "poster.jpg",
+    "captions": "captions.vtt",
+    "caption_tracks": [
+      {
+        "path": "captions.vtt",
+        "language": "en"
+      },
+      {
+        "path": "captions.es.vtt",
+        "language": "es"
+      }
+    ],
+    "download": "https://github.com/tejaswigowda/renders/releases/download/futureflux-mesa-extended-v1/futureflux-mesa-extended.mp4"
+  },
+  "files": {
+    "1080p30/index.m3u8": {
+      "bytes": 1128,
+      "sha256": "8b7c1e44a21bb1b428210dc9e3effd8436f9e367c190d165d213fa416acc280b"
+    },
+    "1080p30/init.mp4": {
+      "bytes": 1355,
+      "sha256": "26c0c821c2ef3c65943d6ea9adaaeb613cc3ce419d45205d8b3b8bed42c56174"
+    },
+    "1080p30/seg00000.m4s": {
+      "bytes": 507504,
+      "sha256": "36f67d756b570c61058f2342968288825f51701f33731261571f950a4a828419"
+    },
+    "1080p30/seg00001.m4s": {
+      "bytes": 3317839,
+      "sha256": "b7b6d70a9a76603b5b1b9ab39c0026f264936ac37f3afb913cb10c2338ecfd81"
+    },
+    "1080p30/seg00002.m4s": {
+      "bytes": 5046346,
+      "sha256": "ca7c7b9b8d2dbf558531c2fdcee7b1461d2c04b3196a05a01e9eb3ca1c0b9d0a"
+    },
+    "1080p30/seg00003.m4s": {
+      "bytes": 5137965,
+      "sha256": "9696c90b4054fcd3f0b7fb0d7c12e250957b0791a40da1137f3fdb8a5bbb2a4c"
+    },
+    "1080p30/seg00004.m4s": {
+      "bytes": 4695318,
+      "sha256": "4f5ad2d27b13fdadb0e909d06d430dfd3956e4d3cb5c685c9febd01d2dbf91a0"
+    },
+    "1080p30/seg00005.m4s": {
+      "bytes": 1416938,
+      "sha256": "ccc33e215baec8724d6fbc76a05ca458905f5eab1728227602319334353a4de9"
+    },
+    "1080p30/seg00006.m4s": {
+      "bytes": 627459,
+      "sha256": "d4e07d7b324718227e74fe47fb2634952aa42c431a2bbd47e86b064d1a41abec"
+    },
+    "1080p30/seg00007.m4s": {
+      "bytes": 1431447,
+      "sha256": "5ce3e9298a5784a5b28e75c037f882c9ed58622061373b3714eac8750a05eea4"
+    },
+    "1080p30/seg00008.m4s": {
+      "bytes": 5144376,
+      "sha256": "86308e27296d05cbf70e8840e2f2d5c66fe439382df2e2b6954bef97427964fa"
+    },
+    "1080p30/seg00009.m4s": {
+      "bytes": 4758410,
+      "sha256": "a7f8e64c8e7250b9d673b3f5178725076f36cebe6c235223474f4ed87560793a"
+    },
+    "1080p30/seg00010.m4s": {
+      "bytes": 4067372,
+      "sha256": "8118d0f8d8a66c80a64f551910f1fd339ed807aeb6b079a0b37908993360d68e"
+    },
+    "1080p30/seg00011.m4s": {
+      "bytes": 1170035,
+      "sha256": "a4ae20406dc840498cf2898db44dbdb94d971b2c35d1ce54d2ef399fd8a4d1cd"
+    },
+    "1080p30/seg00012.m4s": {
+      "bytes": 489044,
+      "sha256": "39d4c9c4770896b195b155cee70ab9cb9ceec50c649eaaf1d3f3440e262f65f8"
+    },
+    "1080p30/seg00013.m4s": {
+      "bytes": 4653334,
+      "sha256": "f73e24b913d37a7b9afd33fd23321e87219b078afc10a5e1d3d14f4bc543fbaf"
+    },
+    "1080p30/seg00014.m4s": {
+      "bytes": 4482329,
+      "sha256": "8aee6b8c630299c9c76a45d65ac3d47a74f82e6b69b6ccf8634022116a53df38"
+    },
+    "1080p30/seg00015.m4s": {
+      "bytes": 4683575,
+      "sha256": "12515e53d4e7269d4264b5f569fdf5e2e7ca0dcf3ee00f7840b8b1562332e066"
+    },
+    "1080p30/seg00016.m4s": {
+      "bytes": 3266316,
+      "sha256": "eebb92b0c43c2429f7a3c191163ff284ab7b8678eb12b896860264dfe722071f"
+    },
+    "1080p30/seg00017.m4s": {
+      "bytes": 455255,
+      "sha256": "0d3589ca78b9851bf463fed252ef55ceecc2d6a27d3bd86e54b1881485b4dcec"
+    },
+    "1080p30/seg00018.m4s": {
+      "bytes": 2110483,
+      "sha256": "d5aa5fecb3503841e934b1a60f8d845fc486f58913802abf9daeb8dcea675b50"
+    },
+    "1080p30/seg00019.m4s": {
+      "bytes": 3758502,
+      "sha256": "860da44b4cfbd14ccc374298f43a5eedd4eedf59da9fee785e9baa120a7c1cd3"
+    },
+    "1080p30/seg00020.m4s": {
+      "bytes": 5034647,
+      "sha256": "f1dd8a7cb5a364b72691f3cf985ff407d93e2ec4a2fff945c2aed86e156c3fb8"
+    },
+    "1080p30/seg00021.m4s": {
+      "bytes": 5140415,
+      "sha256": "eb2bb0c306efa0c1e078453f604b2a5bd9e69f31635e7bf131db2f9ff9160614"
+    },
+    "1080p30/seg00022.m4s": {
+      "bytes": 4393905,
+      "sha256": "506fa2e0b2e9e729c19f320f1dd80a6ed155b67e6a037174ef4f841ea7385e83"
+    },
+    "1080p30/seg00023.m4s": {
+      "bytes": 4663755,
+      "sha256": "f415ab251b110f3a19bcad4a570f3bc7adab1a0fe564bd653e39825753ddd2ef"
+    },
+    "1080p30/seg00024.m4s": {
+      "bytes": 4705318,
+      "sha256": "47239b31d5184fdc4150576e0913a7bb0f7fea51e7b1d31b205f5d9231466411"
+    },
+    "1080p30/seg00025.m4s": {
+      "bytes": 4705861,
+      "sha256": "6b740f8bb613b974d90dc9c82f4c9a0a573e33f042e0bcee2257ae34c4f6d0cf"
+    },
+    "1080p30/seg00026.m4s": {
+      "bytes": 4645949,
+      "sha256": "7552d3c001f06d4f66459efd895e0e71bb72d26bd9211e713f13b69ffe363132"
+    },
+    "1080p30/seg00027.m4s": {
+      "bytes": 5107136,
+      "sha256": "0bbf234656720f262db629a4fb7da24171cb2a04bdb15299a55312c010d6c9d0"
+    },
+    "1080p30/seg00028.m4s": {
+      "bytes": 4009963,
+      "sha256": "72f0135e050f5cedc8f69578d6741986d1aea8705011463c330c5f35fa9ba202"
+    },
+    "1080p30/seg00029.m4s": {
+      "bytes": 3152825,
+      "sha256": "9b3abf7cf940860d974806f18e2f599bdae5b72cfd0c58cd3fcc7224642f200c"
+    },
+    "1080p30/seg00030.m4s": {
+      "bytes": 709985,
+      "sha256": "93bdcf8891240ed41efae0c7b6e769c0c6bd0d1f8ddbe07b3d8dafc098438b52"
+    },
+    "captions.es.vtt": {
+      "bytes": 947,
+      "sha256": "0f7222425d667f3d86ee40989a8c6ace957a3ffee303ee40b1a7955cbf3bc644"
+    },
+    "captions.vtt": {
+      "bytes": 876,
+      "sha256": "ddaf42462cc40a340b4d14084456791ed8cb65a2d32f291a7903597961e5384f"
+    },
+    "master.m3u8": {
+      "bytes": 492,
+      "sha256": "4fa28247f89c879c60728065f4cb16ec4c6a90d0f21e07b7b29878d169f114ca"
+    },
+    "poster.jpg": {
+      "bytes": 65562,
+      "sha256": "497122197b82ac47e93e6feea2f7059db4cd40166bd4c3d7ae0a43b7a48035cd"
+    },
+    "subs/en/index.m3u8": {
+      "bytes": 154,
+      "sha256": "00b9fe008014687f10699d3a86b81ce33b93424152f2a9636bef2c9bda3fee74"
+    },
+    "subs/es/index.m3u8": {
+      "bytes": 157,
+      "sha256": "13ba5878d338e4cfc7ca39dc4190ceee677b4530f5174453d3a6b9f7fe5638be"
+    }
+  }
+}
