@@ -4,8 +4,8 @@
     "repo": "tejaswigowda/test1",
     "file": "flux.json",
     "branch": "main",
-    "commit": "5f21b2cd1845711fed0c99fc8c4e3998dae52c98",
-    "hash": "sha256:33ee2db885e2c5216c86bc0ab093ba4293d3126f2fdf18de9689800ec6edd3e6"
+    "commit": "5299b449f63df8e902fd0694ef24954239334538",
+    "hash": "sha256:3f647221a2dbbe070983b0824280d9102122a40fea95e6f44033de877c87151a"
   },
   "render": {
     "mode": "offline",
@@ -47,17 +47,17 @@
     "renderer": "WebGLRenderer",
     "device": "webgl2",
     "fps": 30,
-    "frames": 3645,
+    "frames": 2115,
     "frame_range": [
       0,
-      3644
+      2114
     ],
-    "duration_s": 121.5,
+    "duration_s": 70.5,
     "width": 1920,
     "height": 1080,
     "seed": null,
     "exporter": "strata-export/1.2.0",
-    "rendered_at": "2026-11-21T06:10:50.499Z",
+    "rendered_at": "2026-11-21T07:07:48.376Z",
     "time_source_audit": {
       "document": "guides/TIME_SOURCES.md",
       "passed": true,
@@ -92,8 +92,8 @@
         "height": 1080,
         "bitrate_kbps": 3500,
         "playlist": "1080p30/index.m3u8",
-        "segments": 21,
-        "max_segment_bytes": 3857215,
+        "segments": 12,
+        "max_segment_bytes": 3020828,
         "encoder": {
           "kind": "hardware",
           "name": "WebCodecs VideoEncoder (H.264)",
@@ -123,8 +123,8 @@
         "height": 720,
         "bitrate_kbps": 1800,
         "playlist": "720p30/index.m3u8",
-        "segments": 21,
-        "max_segment_bytes": 1535694,
+        "segments": 12,
+        "max_segment_bytes": 1576938,
         "encoder": {
           "kind": "hardware",
           "name": "WebCodecs VideoEncoder (H.264)",
@@ -154,8 +154,8 @@
         "height": 480,
         "bitrate_kbps": 900,
         "playlist": "480p30/index.m3u8",
-        "segments": 21,
-        "max_segment_bytes": 747912,
+        "segments": 12,
+        "max_segment_bytes": 800785,
         "encoder": {
           "kind": "hardware",
           "name": "WebCodecs VideoEncoder (H.264)",
@@ -187,8 +187,8 @@
         "path": "captions.vtt",
         "language": "en",
         "source": "manual",
-        "cues_sha256": "sha256:9ad556d457c98a4491d8cd8b43b5c99e4b71f8cc9a4cb67ba1b841b99800bb43",
-        "structure_sha256": "sha256:16a1654a494ef1985fa57dac1ab22e4ee1a4e80fe3c3a76830b493750546905c",
+        "cues_sha256": "sha256:86d6cae8885b8073402a21435a39a22a40e52966a91239b8906d3898f803302a",
+        "structure_sha256": "sha256:6e0bca30d81a875d78d3cf0d6d9268c104787e72a008f4631d4b535daf02cebf",
         "cue_count": 12,
         "addressable": false,
         "hls": "subs/en/index.m3u8"
@@ -197,8 +197,8 @@
         "path": "captions.es.vtt",
         "language": "es",
         "source": "manual",
-        "cues_sha256": "sha256:1d248520a61cef2e1c577c35066be27225117a49d647cddb7373177cb1da5fdb",
-        "structure_sha256": "sha256:46229031e0e7f0fb8111fa86c9e9f154a6e26f62a6a04000dba4453d8f0dd3a2",
+        "cues_sha256": "sha256:421938d449d2402e92ce2a36945f0b2e5fd1ddcbef436a749fe70a02609ef430",
+        "structure_sha256": "sha256:3de650c61037376ca1b2ff202017d762a4d6617208172bee535aa2c18e3beaa5",
         "cue_count": 12,
         "addressable": false,
         "hls": "subs/es/index.m3u8"
@@ -210,10 +210,10 @@
     },
     "frame_hashes": {
       "path": "frame-hashes.txt",
-      "count": 3645,
+      "count": 2115,
       "algorithm": "sha256",
       "over": "raw RGB, 8 bits per channel, row by row, of the composited frame before encoding",
-      "root": "sha256:4ba0d33f1dd428748f13ac78659034859b255cf9454893e242d121a38bf4c087"
+      "root": "sha256:98ff5da63b376166eaaea8d05c9be27b19ab95320d9a7220f13c6e5a1c716650"
     },
     "audio": {
       "name": "English",
@@ -223,12 +223,12 @@
       "channels": 2,
       "bitrate_kbps": 128,
       "playlist": "audio/index.m3u8",
-      "segments": 21,
-      "max_segment_bytes": 65834,
-      "duration_s": 121.514667,
+      "segments": 12,
+      "max_segment_bytes": 75182,
+      "duration_s": 70.506667,
       "source": {
-        "path": "en.wav",
-        "sha256": "sha256:5bfc868385d98a8187c14887ea50f7ae38cd4ef097e77fbd247f3b2ed6c1af6d"
+        "path": "futureflux-mesa-short.en.wav",
+        "sha256": "sha256:14e3a71b3f1ad72f17f28b49169c3ba0fb196740c707afea23da91104031d440"
       },
       "encoder_delay_samples": 2112
     },
@@ -241,12 +241,12 @@
         "channels": 2,
         "bitrate_kbps": 128,
         "playlist": "audio/es/index.m3u8",
-        "segments": 21,
-        "max_segment_bytes": 66012,
-        "duration_s": 121.514667,
+        "segments": 12,
+        "max_segment_bytes": 75032,
+        "duration_s": 70.506667,
         "source": {
-          "path": "es.wav",
-          "sha256": "sha256:9aa6815cdf77910085e0efd99378bef9a416c79b5017b7c0e181dd15e0d0f788"
+          "path": "futureflux-mesa-short.es.wav",
+          "sha256": "sha256:192ebd5ab107194f683ddc5d57c7f0e1e391194ffa2dc7a48da0ceff08b0b33f"
         },
         "encoder_delay_samples": 2112
       }
@@ -262,20 +262,20 @@
     "audio_duration_matches_video": true
   },
   "publication": {
-    "canonical": "https://strataeditor.dev/video/flux/v2/",
+    "canonical": "https://strataeditor.dev/video/flux/v3/",
     "source": {
       "repo": "tejaswigowda/renders",
-      "tag": "flux/v2",
+      "tag": "flux/v3",
       "path": "flux"
     },
     "mirrors": [
-      "https://cdn.jsdelivr.net/gh/tejaswigowda/renders@flux/v2/flux/"
+      "https://cdn.jsdelivr.net/gh/tejaswigowda/renders@flux/v3/flux/"
     ],
     "target": "generic",
     "constraints": {
       "max_file_bytes": 20971520,
       "target_segment_s": 6
     },
-    "size_bytes": 96331097
+    "size_bytes": 56733247
   }
 }
