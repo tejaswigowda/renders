@@ -1,0 +1,45 @@
+WEBVTT
+
+NOTE
+cues            sha256:9ad556d457c98a4491d8cd8b43b5c99e4b71f8cc9a4cb67ba1b841b99800bb43
+structure       sha256:16a1654a494ef1985fa57dac1ab22e4ee1a4e80fe3c3a76830b493750546905c
+source          manual
+language        en
+ids             none
+exporter        strata-export/1.2.0
+
+00:00:00.000 --> 00:00:04.000
+Mesa, Arizona
+
+00:00:04.000 --> 00:00:13.500
+One Landsat pass: July 29, 2025
+
+00:00:13.500 --> 00:00:20.000
+Surface heat, not air temperature.
+
+00:00:20.000 --> 00:00:33.500
+Encanto: 137.3 °F. Little visible tree cover.
+
+00:00:33.500 --> 00:00:43.000
+To Alta Mesa: 1.48 miles straight-line.
+
+00:00:43.000 --> 00:00:56.000
+Alta Mesa: 120.4 °F. More tree cover.
+
+00:00:56.000 --> 00:01:05.500
+To Red Mountain: 2.56 miles straight-line.
+
+00:01:05.500 --> 00:01:18.000
+Red Mountain: 124.7 °F, between the two.
+
+00:01:18.000 --> 00:01:26.500
+Here, trees shade only part of the pavement.
+
+00:01:26.500 --> 00:01:33.000
+Three new trees block direct sun.
+
+00:01:33.000 --> 00:01:40.000
+More canopy can extend cooler pavement.
+
+00:01:40.000 --> 00:01:49.500
+18 trees shown. Cooling was not measured.

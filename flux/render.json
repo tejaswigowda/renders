@@ -4,8 +4,8 @@
     "repo": "tejaswigowda/test1",
     "file": "flux.json",
     "branch": "main",
-    "commit": "73fd7a253f6d8dc48c592d587fb5d1e261c86706",
-    "hash": "sha256:08c7e3bb0f77f36fdd16b209aad466c0246aba81102a0ac88b671c5ea16e2412"
+    "commit": "5f21b2cd1845711fed0c99fc8c4e3998dae52c98",
+    "hash": "sha256:33ee2db885e2c5216c86bc0ab093ba4293d3126f2fdf18de9689800ec6edd3e6"
   },
   "render": {
     "mode": "offline",
@@ -26,38 +26,38 @@
     "encoder": {
       "kind": "hardware",
       "name": "WebCodecs VideoEncoder (H.264)",
-      "version": "Chromium 150",
-      "settings_hash": "sha256:95b17ad03ad20b6579e31b6c628b540f267c3d62411e7a784dfd98ea7f8142a2",
+      "version": "Google Chrome 157",
+      "settings_hash": "sha256:5d0da13c70a7bc6f7dfc242e23c45422f12cc2623c006db84a426f0cd9931a76",
       "threads": null,
       "config": {
-        "codec": "avc1.64002a",
+        "codec": "avc1.640028",
         "width": 1920,
         "height": 1080,
-        "bitrate": 18662400,
-        "framerate": 60,
+        "bitrate": 9331200,
+        "framerate": 30,
         "avc": {
           "format": "avc"
         },
         "latencyMode": "quality",
         "hardwareAcceleration": "no-preference",
-        "keyEvery": 120
+        "keyEvery": 60
       },
       "stage": "master"
     },
     "renderer": "WebGLRenderer",
     "device": "webgl2",
-    "fps": 60,
-    "frames": 1800,
+    "fps": 30,
+    "frames": 3645,
     "frame_range": [
       0,
-      1799
+      3644
     ],
-    "duration_s": 30,
+    "duration_s": 121.5,
     "width": 1920,
     "height": 1080,
     "seed": null,
     "exporter": "strata-export/1.2.0",
-    "rendered_at": "2026-11-19T21:42:10.261Z",
+    "rendered_at": "2026-11-21T06:10:50.499Z",
     "time_source_audit": {
       "document": "guides/TIME_SOURCES.md",
       "passed": true,
@@ -72,97 +72,108 @@
       ]
     }
   },
+  "inputs": {
+    "end_card": {
+      "path": "endcard.png",
+      "sha256": "sha256:90e16be4191a9000f7f512da0807f200484218920d7740d32ff6066a44f5799e",
+      "bytes": 55570,
+      "source": "https://strataeditor.dev/about/callcard/",
+      "stamp": "Strata v0.1.0",
+      "width": 1024,
+      "height": 751
+    }
+  },
   "outputs": {
     "master": "master.m3u8",
     "renditions": [
       {
-        "name": "1080p60",
+        "name": "1080p30",
         "width": 1920,
         "height": 1080,
         "bitrate_kbps": 3500,
-        "playlist": "1080p60/index.m3u8",
-        "segments": 5,
-        "max_segment_bytes": 2815591,
+        "playlist": "1080p30/index.m3u8",
+        "segments": 21,
+        "max_segment_bytes": 3857215,
         "encoder": {
           "kind": "hardware",
           "name": "WebCodecs VideoEncoder (H.264)",
-          "version": "Chromium 150",
-          "settings_hash": "sha256:a2f8ae1ce484e0a9022827a6c0ce106e41db1639b4247a6a0241efb1e501510e",
-          "threads": null,
-          "config": {
-            "codec": "avc1.64002a",
-            "width": 1920,
-            "height": 1080,
-            "bitrate": 3500000,
-            "framerate": 60,
-            "avc": {
-              "format": "avc"
-            },
-            "latencyMode": "quality",
-            "hardwareAcceleration": "no-preference",
-            "keyEvery": 120
-          },
-          "stage": "ladder",
-          "input": "master"
-        }
-      },
-      {
-        "name": "720p60",
-        "width": 1280,
-        "height": 720,
-        "bitrate_kbps": 1800,
-        "playlist": "720p60/index.m3u8",
-        "segments": 5,
-        "max_segment_bytes": 1433724,
-        "encoder": {
-          "kind": "hardware",
-          "name": "WebCodecs VideoEncoder (H.264)",
-          "version": "Chromium 150",
-          "settings_hash": "sha256:be6f3801e9c1afe2b224592340abd5fdd648219b614b7caa704d8c3ee4c71241",
+          "version": "Google Chrome 157",
+          "settings_hash": "sha256:fe3f536a98049c264267fee8bec72620419844d83aa032338646b5352cfa3465",
           "threads": null,
           "config": {
             "codec": "avc1.640028",
-            "width": 1280,
-            "height": 720,
-            "bitrate": 1800000,
-            "framerate": 60,
+            "width": 1920,
+            "height": 1080,
+            "bitrate": 3500000,
+            "framerate": 30,
             "avc": {
               "format": "avc"
             },
             "latencyMode": "quality",
             "hardwareAcceleration": "no-preference",
-            "keyEvery": 120
+            "keyEvery": 60
           },
           "stage": "ladder",
           "input": "master"
         }
       },
       {
-        "name": "480p60",
-        "width": 854,
-        "height": 480,
-        "bitrate_kbps": 900,
-        "playlist": "480p60/index.m3u8",
-        "segments": 5,
-        "max_segment_bytes": 737231,
+        "name": "720p30",
+        "width": 1280,
+        "height": 720,
+        "bitrate_kbps": 1800,
+        "playlist": "720p30/index.m3u8",
+        "segments": 21,
+        "max_segment_bytes": 1535694,
         "encoder": {
           "kind": "hardware",
           "name": "WebCodecs VideoEncoder (H.264)",
-          "version": "Chromium 150",
-          "settings_hash": "sha256:fe0f3113856512c174441f41d8b5cd941a24e20f6168f7665dc8ece463b5544a",
+          "version": "Google Chrome 157",
+          "settings_hash": "sha256:7b2d4357ad7591988ff1201601e51fe78ccf1ea200bafe49a17e695a0d1d85b4",
+          "threads": null,
+          "config": {
+            "codec": "avc1.64001f",
+            "width": 1280,
+            "height": 720,
+            "bitrate": 1800000,
+            "framerate": 30,
+            "avc": {
+              "format": "avc"
+            },
+            "latencyMode": "quality",
+            "hardwareAcceleration": "no-preference",
+            "keyEvery": 60
+          },
+          "stage": "ladder",
+          "input": "master"
+        }
+      },
+      {
+        "name": "480p30",
+        "width": 854,
+        "height": 480,
+        "bitrate_kbps": 900,
+        "playlist": "480p30/index.m3u8",
+        "segments": 21,
+        "max_segment_bytes": 747912,
+        "encoder": {
+          "kind": "hardware",
+          "name": "WebCodecs VideoEncoder (H.264)",
+          "version": "Google Chrome 157",
+          "settings_hash": "sha256:d03f24b0ca1945b518c92b6a8aa9e7973ffbb2cd6234a8e92b94289bb775117c",
           "threads": null,
           "config": {
             "codec": "avc1.64001f",
             "width": 854,
             "height": 480,
             "bitrate": 900000,
-            "framerate": 60,
+            "framerate": 30,
             "avc": {
               "format": "avc"
             },
             "latencyMode": "quality",
             "hardwareAcceleration": "no-preference",
-            "keyEvery": 120
+            "keyEvery": 60
           },
           "stage": "ladder",
           "input": "master"
@@ -170,45 +181,101 @@
       }
     ],
     "poster": "poster.jpg",
-    "captions": null,
-    "caption_tracks": [],
+    "captions": "captions.vtt",
+    "caption_tracks": [
+      {
+        "path": "captions.vtt",
+        "language": "en",
+        "source": "manual",
+        "cues_sha256": "sha256:9ad556d457c98a4491d8cd8b43b5c99e4b71f8cc9a4cb67ba1b841b99800bb43",
+        "structure_sha256": "sha256:16a1654a494ef1985fa57dac1ab22e4ee1a4e80fe3c3a76830b493750546905c",
+        "cue_count": 12,
+        "addressable": false,
+        "hls": "subs/en/index.m3u8"
+      },
+      {
+        "path": "captions.es.vtt",
+        "language": "es",
+        "source": "manual",
+        "cues_sha256": "sha256:1d248520a61cef2e1c577c35066be27225117a49d647cddb7373177cb1da5fdb",
+        "structure_sha256": "sha256:46229031e0e7f0fb8111fa86c9e9f154a6e26f62a6a04000dba4453d8f0dd3a2",
+        "cue_count": 12,
+        "addressable": false,
+        "hls": "subs/es/index.m3u8"
+      }
+    ],
     "manifest": {
       "path": "files.sha256",
       "algorithm": "sha256"
     },
     "frame_hashes": {
       "path": "frame-hashes.txt",
-      "count": 1800,
+      "count": 3645,
       "algorithm": "sha256",
       "over": "raw RGB, 8 bits per channel, row by row, of the composited frame before encoding",
-      "root": "sha256:c30a2042629d41dc817a888e1e6be30d04df869adb6faeeafd139a58d7183e8e"
+      "root": "sha256:4ba0d33f1dd428748f13ac78659034859b255cf9454893e242d121a38bf4c087"
     },
-    "audio": null,
-    "audio_present": false,
-    "audio_absence": "The scene has no narration: no renderAudio, nothing dubbed, no WAV chosen. The master declares no audio group and no audio codec."
+    "audio": {
+      "name": "English",
+      "language": "en",
+      "codec": "mp4a.40.2",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bitrate_kbps": 128,
+      "playlist": "audio/index.m3u8",
+      "segments": 21,
+      "max_segment_bytes": 65834,
+      "duration_s": 121.514667,
+      "source": {
+        "path": "en.wav",
+        "sha256": "sha256:5bfc868385d98a8187c14887ea50f7ae38cd4ef097e77fbd247f3b2ed6c1af6d"
+      },
+      "encoder_delay_samples": 2112
+    },
+    "alternate_audio": [
+      {
+        "name": "Español",
+        "language": "es",
+        "codec": "mp4a.40.2",
+        "sample_rate": 48000,
+        "channels": 2,
+        "bitrate_kbps": 128,
+        "playlist": "audio/es/index.m3u8",
+        "segments": 21,
+        "max_segment_bytes": 66012,
+        "duration_s": 121.514667,
+        "source": {
+          "path": "es.wav",
+          "sha256": "sha256:9aa6815cdf77910085e0efd99378bef9a416c79b5017b7c0e181dd15e0d0f788"
+        },
+        "encoder_delay_samples": 2112
+      }
+    ],
+    "audio_present": true
   },
   "checks": {
     "segments_under_20mb": true,
     "files_under_100mb": true,
     "frame_count_matches_duration": true,
     "encoder_recorded_per_rendition": true,
-    "master_matches_audio": true
+    "master_matches_audio": true,
+    "audio_duration_matches_video": true
   },
   "publication": {
-    "canonical": "https://strataeditor.dev/video/flux/v1/",
+    "canonical": "https://strataeditor.dev/video/flux/v2/",
     "source": {
       "repo": "tejaswigowda/renders",
-      "tag": "flux/v1",
+      "tag": "flux/v2",
       "path": "flux"
     },
     "mirrors": [
-      "https://cdn.jsdelivr.net/gh/tejaswigowda/renders@flux/v1/flux/"
+      "https://cdn.jsdelivr.net/gh/tejaswigowda/renders@flux/v2/flux/"
     ],
     "target": "generic",
     "constraints": {
       "max_file_bytes": 20971520,
       "target_segment_s": 6
     },
-    "size_bytes": 24224743
+    "size_bytes": 96331097
   }
 }
