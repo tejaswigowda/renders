@@ -251,7 +251,22 @@
         "encoder_delay_samples": 2112
       }
     ],
-    "audio_present": true
+    "audio_present": true,
+    "compatibility": {
+      "type": "video/webm; codecs=\"vp8, vorbis\"",
+      "audio": [
+        {
+          "name": "English",
+          "language": "en",
+          "path": "compatibility/en.webm"
+        },
+        {
+          "name": "Español",
+          "language": "es",
+          "path": "compatibility/es.webm"
+        }
+      ]
+    }
   },
   "checks": {
     "segments_under_20mb": true,
@@ -262,20 +277,20 @@
     "audio_duration_matches_video": true
   },
   "publication": {
-    "canonical": "https://strataeditor.dev/video/flux/v3/",
+    "canonical": "https://strataeditor.dev/video/flux/v4/",
     "source": {
       "repo": "tejaswigowda/renders",
-      "tag": "flux/v3",
+      "tag": "flux/v4",
       "path": "flux"
     },
     "mirrors": [
-      "https://cdn.jsdelivr.net/gh/tejaswigowda/renders@flux/v3/flux/"
+      "https://cdn.jsdelivr.net/gh/tejaswigowda/renders@flux/v4/flux/"
     ],
     "target": "generic",
     "constraints": {
       "max_file_bytes": 20971520,
       "target_segment_s": 6
     },
-    "size_bytes": 56733247
+    "size_bytes": 78729613
   }
 }
