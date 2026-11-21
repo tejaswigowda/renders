@@ -1,0 +1,57 @@
+WEBVTT
+
+NOTE
+scene           tejaswigowda/test1@5253c45 flux.json
+cues            sha256:17e06f47c002a33d333670b2d940e52bcbc2c26bc33ef1264fd0bdd036b5f02d
+structure       sha256:ecb315297e32c64130a15f57f5c34fe4f442267ae6e3231fd4a0e34ba23e73c0
+source          cues
+language        es
+ids             authored
+
+cue-vlx1ql1
+00:00:00.000 --> 00:00:04.000
+Mesa, Arizona
+
+cue-fykpt32
+00:00:04.000 --> 00:00:08.000
+Una pasada de Landsat: 29 de julio de 2025
+
+cue-4pt70a3
+00:00:08.000 --> 00:00:12.000
+Temperatura de la superficie, no del aire.
+
+cue-hv4m764
+00:00:12.000 --> 00:00:16.000
+Encanto: 58,5 °C. Se ven pocos árboles.
+
+cue-esgsoz5
+00:00:16.000 --> 00:00:21.000
+Hasta Alta Mesa: 1,48 millas en línea recta.
+
+cue-hxk8bk6
+00:00:21.000 --> 00:00:25.000
+Alta Mesa: 49,1 °C. Se ven más árboles.
+
+cue-8al7xr7
+00:00:25.000 --> 00:00:30.000
+Hasta Red Mountain: 2,56 millas en línea recta.
+
+cue-ce9zkr8
+00:00:30.000 --> 00:00:33.500
+Red Mountain: 51,5 °C, entre los dos.
+
+cue-ipbzy19
+00:00:33.500 --> 00:00:38.000
+Aquí, los árboles solo dan sombra a parte del pavimento.
+
+cue-xuzsdwa
+00:00:38.000 --> 00:00:41.000
+Tres árboles nuevos bloquean el sol directo.
+
+cue-z7lgzlb
+00:00:41.000 --> 00:00:44.000
+Más copas pueden ampliar las zonas frescas.
+
+cue-c9sewkc
+00:00:44.000 --> 00:00:48.000
+Se muestran 18 árboles. No se midió el enfriamiento.

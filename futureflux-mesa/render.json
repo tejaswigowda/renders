@@ -1,0 +1,62 @@
+{
+  "scene": {
+    "repo": "tejaswigowda/test1",
+    "file": "flux.json",
+    "branch": "main",
+    "commit": "5253c454ec669b952118c4982767c20ba162834f"
+  },
+  "render": {
+    "mode": "offline",
+    "fps": 30,
+    "frames": 1800,
+    "duration_s": 60,
+    "width": 1920,
+    "height": 1080
+  },
+  "outputs": {
+    "master": "master.m3u8",
+    "renditions": [
+      {
+        "name": "1080p30",
+        "width": 1920,
+        "height": 1080,
+        "bitrate_kbps": 7012,
+        "playlist": "1080p30/index.m3u8",
+        "segments": 15,
+        "max_segment_bytes": 7043162,
+        "encoder": null
+      }
+    ],
+    "poster": "poster.jpg",
+    "captions": "captions.vtt",
+    "caption_tracks": [
+      {
+        "path": "captions.vtt",
+        "language": "en",
+        "source": "cues",
+        "cues_sha256": "sha256:58cf31375603f867bcae89c38313e7b8d15fb3956e58b97701fec2326adc7843",
+        "structure_sha256": "sha256:ecb315297e32c64130a15f57f5c34fe4f442267ae6e3231fd4a0e34ba23e73c0",
+        "cue_count": 12,
+        "addressable": true,
+        "hls": "subs/en/index.m3u8"
+      },
+      {
+        "path": "captions.es.vtt",
+        "language": "es",
+        "source": "cues",
+        "cues_sha256": "sha256:17e06f47c002a33d333670b2d940e52bcbc2c26bc33ef1264fd0bdd036b5f02d",
+        "structure_sha256": "sha256:ecb315297e32c64130a15f57f5c34fe4f442267ae6e3231fd4a0e34ba23e73c0",
+        "cue_count": 12,
+        "addressable": true,
+        "hls": "subs/es/index.m3u8"
+      }
+    ],
+    "manifest": {
+      "path": "files.sha256",
+      "algorithm": "sha256"
+    },
+    "audio": null,
+    "audio_present": false,
+    "audio_absence": "The scene has no narration: no renderAudio, nothing dubbed, no WAV chosen. The master declares no audio group and no audio codec."
+  }
+}
