@@ -1,8 +1,8 @@
 WEBVTT
 
 NOTE
-cues            sha256:43be5f83638e95d887cb2ceff6fca69ec60d2bb7d093158e0effaf4571070c4c
-structure       sha256:d9845a7bfb9894d9e430d867070ba5ae8daa0a46cd25de958430b8883540ba4c
+cues            sha256:be80b8b241ccf3faae2d19a7434f55383e85fa60b904bf7575f6a01784657328
+structure       sha256:a90af11a4a43fbbe423ccd34ee004768d5960b3cc99d6d1d4ad72db4e449aa5e
 source          manual
 language        es
 ids             none
