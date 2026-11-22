@@ -228,7 +228,18 @@
       "duration_s": 70.506667,
       "source": {
         "path": "dub-fp32.en.wav",
-        "sha256": "sha256:e17d2f40b0606843365e3a3c89ea0114771429058f67a25079fe7167bcd1c6a1"
+        "sha256": "sha256:e17d2f40b0606843365e3a3c89ea0114771429058f67a25079fe7167bcd1c6a1",
+        "tool": "dub.webcli.app",
+        "voice": "af_heart",
+        "model": {
+          "id": "onnx-community/Kokoro-82M-v1.0-ONNX",
+          "revision": "1939ad2a8e416c0acfeecc08a694d14ef25f2231",
+          "dtype": "fp32",
+          "device": "webgpu",
+          "library": "kokoro-js@1.2.1",
+          "crossOriginIsolated": false
+        },
+        "report": "narration/en.report.json"
       },
       "encoder_delay_samples": 2112
     },
@@ -246,12 +257,39 @@
         "duration_s": 70.506667,
         "source": {
           "path": "dub-fp32.es.wav",
-          "sha256": "sha256:1726e7343e7f58f605a4952f5dd5f0f143552ab413844d89d7733dc8e0b281d1"
+          "sha256": "sha256:1726e7343e7f58f605a4952f5dd5f0f143552ab413844d89d7733dc8e0b281d1",
+          "tool": "dub.webcli.app",
+          "voice": "ef_dora",
+          "model": {
+            "id": "onnx-community/Kokoro-82M-v1.0-ONNX",
+            "revision": "1939ad2a8e416c0acfeecc08a694d14ef25f2231",
+            "dtype": "fp32",
+            "device": "webgpu",
+            "library": "kokoro-js@1.2.1",
+            "crossOriginIsolated": false,
+            "phonemizer": "espeak-phonemizer@0.2.0/es"
+          },
+          "report": "narration/es.report.json"
         },
         "encoder_delay_samples": 2112
       }
     ],
-    "audio_present": true
+    "audio_present": true,
+    "compatibility": {
+      "type": "video/mp4; codecs=\"avc1.64001f, mp4a.6B\"",
+      "audio": [
+        {
+          "name": "English",
+          "language": "en",
+          "path": "compatibility/en.mp4"
+        },
+        {
+          "name": "Español",
+          "language": "es",
+          "path": "compatibility/es.mp4"
+        }
+      ]
+    }
   },
   "checks": {
     "segments_under_20mb": true,
@@ -262,20 +300,20 @@
     "audio_duration_matches_video": true
   },
   "publication": {
-    "canonical": "https://strataeditor.dev/video/flux/v8/",
+    "canonical": "https://strataeditor.dev/video/flux/v9/",
     "source": {
       "repo": "tejaswigowda/renders",
-      "tag": "flux/v8",
+      "tag": "flux/v9",
       "path": "flux"
     },
     "mirrors": [
-      "https://cdn.jsdelivr.net/gh/tejaswigowda/renders@flux/v8/flux/"
+      "https://cdn.jsdelivr.net/gh/tejaswigowda/renders@flux/v9/flux/"
     ],
     "target": "generic",
     "constraints": {
       "max_file_bytes": 20971520,
       "target_segment_s": 6
     },
-    "size_bytes": 56443475
+    "size_bytes": 90630071
   }
 }
